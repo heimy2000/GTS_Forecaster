@@ -1,0 +1,32 @@
+path: ../data/1.csv
+vision: True
+input_features: ['time', 'U']
+output_features: ['U']
+window_size: 20
+train_test_ratio: 0.2
+random_state: 34
+model_name: TCN
+dropout: 0.1
+hidden_dim: 32
+n_layers: 2
+grid_size: 200
+num_channels: [25, 50, 25]
+kernel_size: 3
+num_heads: 8
+hidden_space: 32
+num_epochs: 10000
+seed: 1
+lr: 0.001
+aggregate: last
+keep_self_loops: False
+enforce_consecutive: False
+block_size: 3
+batch_size: 32
+seq_len: 24
+predict_start: 20
+predict_end: 1655
+use_early_stopping: True
+patience: 100
+delta: 0
+predict_nums: [30, 60, 360]
+device: cpu

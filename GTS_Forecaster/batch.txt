@@ -1,0 +1,34 @@
+python 4.py --model_name LSTM
+
+python 4.py --model_name LSTM_ekan
+
+python 4.py --model_name GRU
+
+python 4.py --model_name GRU_ekan
+
+python 4.py --model_name BiLSTM
+
+python 4.py --model_name BiLSTM_ekan
+
+python 4.py --model_name VanillaLSTM
+
+python 4.py --model_name CustomLSTM
+
+python 4.py --model_name TCN
+
+python 4.py --model_name TCN_ekan
+
+python 4.py --model_name Transformer
+
+python 4.py --model_name Transformer_ekan
+
+python 4.py --model_name Informer
+
+python 4.py --model_name TimeGNN
+
+python 4.py --model_name ConvGRU
+
+python 4.py --model_name GRUwGNN
+
+python 4.py --model_name GRU_ekanwGNN
+

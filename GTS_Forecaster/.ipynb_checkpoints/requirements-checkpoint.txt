@@ -1,0 +1,10 @@
+torch>=2.0
+numpy>=1.21
+pandas>=1.3
+#tkinter  # tkinter is usually included with Python, no need to install separately
+scikit-learn>=1.0
+matplotlib>=3.4
+seaborn>=0.11
+plotly>=5.0
+pathlib  # pathlib is part of the Python standard library, no need to install separately
+torch_geometric

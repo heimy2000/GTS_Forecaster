@@ -1,0 +1,34 @@
+python batch_testing.py --model_name LSTM
+
+python batch_testing.py --model_name LSTM_ekan
+
+python batch_testing.py --model_name GRU
+
+python batch_testing.py --model_name GRU_ekan
+
+python batch_testing.py --model_name BiLSTM
+
+python batch_testing.py --model_name BiLSTM_ekan
+
+python batch_testing.py --model_name VanillaLSTM
+
+python batch_testing.py --model_name CustomLSTM
+
+python batch_testing.py --model_name TCN
+
+python batch_testing.py --model_name TCN_ekan
+
+python batch_testing.py --model_name Transformer
+
+python batch_testing.py --model_name Transformer_ekan
+
+python batch_testing.py --model_name Informer
+
+python batch_testing.py --model_name TimeGNN
+
+python batch_testing.py --model_name ConvGRU
+
+python batch_testing.py --model_name GRUwGNN
+
+python batch_testing.py --model_name GRU_ekanwGNN
+
